@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /*background: url('../imagenes/tile1.png') repeat;*/
+    font-family: amblelight_condensed;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 400px;
+    text-align: center;
+    margin: 50px auto 0;
+}
+
+span {
+    font: normal 1.5em amblebold;
+    color: #382aff;
+    text-align: center;
+}
+
+.menu div {
+    width: 100%;
+    font: normal 2em amblelight_condensed;
+    color: #ffffff;
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+    border-radius: 15px 0;
+    margin: 10px auto;
+    padding: 10px 0 10px 55px;
+    position: relative;
+    text-align: left;
+}
+/*
+img {
+    width: 40px;
+    height: auto;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+*/
+.addHolder {
+    width: 300px;
+    margin: 40px auto 0;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 0 0 0 15px;
+    padding: 10px;
+}
+
+.addHolderL{
+    width: auto;
+    margin: auto;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 0 0 0 0px;
+    padding: 10px;
+}
+
+.title {
+    font: normal 1.5em amblebold;
+    color: #3B3B3B;
+    text-align: center;
+    margin: 5px 0 10px;
+}
+
+.label {
+    font: normal 1.5em amblelight_condensed;
+    color: #3B3B3B;
+    text-align: left;
+    margin: 10px 0 4px;
+}
+
+.input input, select {
+    width: 100%;
+    /*background: rgba(0, 0, 0, .2);*/
+    border: none;
+    font: normal 1.5em amblelight_condensed;
+    /*color: white;*/
+    padding: 5px;
+}
+.botonExcel{
+    cursor:pointer;
+}
+
+.version
+{
+    font: normal 0.5em amblelight_condensed;
+    color: #3B3B3B;
+    text-align: start;
+    margin: 1px 0 1px;
+}
+
+select {
+    font-family: Arial;
+}
+
+input[type=submit] {
+    width: 100%;
+    background: dodgerblue;
+    background: rgba(100, 180, 255, .6);
+    /*border-radius: 50px;*/
+    /*color: white;*/
+    border: none;
+    font: normal 2em amblelight_condensed;
+    padding: 5px;
+    margin: 20px 0 10px;
+}
+
+input[placeholder]{
+    /*color: white;*/
+    border: none;
+    font: normal 1em amblelight_condensed;
+}
+
+.error {
+    font: normal 1.2em amblelight_condensed;
+    color: rgba(255, 100, 100, 8);
+    text-align: left;
+    margin: 3px 0;
+}
+
+.success {
+    width: 300px;
+    margin: 40px auto 0;
+    background: rgba(56, 42, 255, 0.30);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+   /*width: 1024px;*/
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+tr {
+    background: rgba(0, 0, 0, .1)
+}
+
+tr:nth-child(even) {
+    background: rgba(0, 0, 0, .2);
+}
+
+th {
+    background: rgba(100, 180, 255, .6);
+    font: normal 1.15em amblebold;
+    padding: 3px 0;
+}
+
+td {
+    font: normal 0.65em amblelight_condensed;
+    padding: 3px 0;
+    align-content: center;
+}
+
+
+/*
